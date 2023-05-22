@@ -1,11 +1,5 @@
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:import/recommended',
-
-    'eslint-config-airbnb-base',
-  ],
-  plugins: ['prettier'],
+  extends: ['eslint:recommended', 'plugin:import/recommended', 'eslint-config-airbnb-base'],
   settings: {
     'import/resolver': {
       node: {
