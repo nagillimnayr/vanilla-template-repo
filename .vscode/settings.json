@@ -4,7 +4,8 @@
   "editor.formatOnType": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
   "vs-code-prettier-eslint.prettierLast": false,
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "files.autoSaveDelay": 30000
 }
